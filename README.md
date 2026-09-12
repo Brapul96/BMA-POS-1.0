@@ -1,10 +1,9 @@
-# BMA MINIMARKET — v28 CLOUD BACKUP
+# BMA MINIMARKET — v33 CLOUD VERIFIED
 
-La app mantiene los datos localmente y sincroniza automáticamente con Supabase cuando hay internet.
+App local-first con sincronización automática a Supabase. La app arranca y funciona sin internet; cuando hay conexión, intenta recuperar o subir los datos.
 
-## Configuración Supabase
-
-En SQL Editor ejecuta:
+## Supabase
+Ejecuta en SQL Editor:
 
 ```sql
 create table if not exists public.bma_store (
@@ -25,4 +24,6 @@ create policy "bma public update" on public.bma_store
 for update to anon using (true) with check (true);
 ```
 
-Después de ejecutar el SQL, abre la app con internet una vez. Los datos locales se copiarán a la nube. En otro dispositivo, abre la app con internet y recuperará los datos.
+Abre la app con internet después de crear la tabla.
+
+> Nota: estas políticas son adecuadas solo para una prueba privada. Para producción se recomienda Supabase Auth y políticas RLS por usuario/tienda.
