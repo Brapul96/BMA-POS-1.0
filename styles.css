@@ -1,0 +1,335 @@
+*{box-sizing:border-box}body{margin:0;background:#f1f5f9;color:#0f172a;font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif}.top{height:64px;background:#0f172a;color:#fff;display:flex;align-items:center;justify-content:space-between;padding:0 18px;position:sticky;top:0;z-index:20}.brand{display:flex;align-items:center;gap:10px}.logo{width:40px;height:40px;border-radius:11px;background:#fff;color:#0f172a;display:grid;place-items:center;font-weight:900}.logo-img{width:54px;height:54px;border-radius:12px;object-fit:cover;background:#fff;box-shadow:0 1px 6px #0003}.brand small{display:block;color:#94a3b8;font-size:11px}.top-actions{display:flex;gap:14px;align-items:center}.top-actions button{background:transparent;color:white;border:0;font-size:23px}#connection{font-size:12px;color:#86efac}.app{display:flex;min-height:calc(100vh - 64px)}aside{width:220px;background:#fff;border-right:1px solid #e2e8f0;padding:12px;overflow:auto}.nav{width:100%;border:0;background:transparent;text-align:left;padding:12px;border-radius:10px;margin-bottom:4px;font-size:14px}.nav.active{background:#e2e8f0;font-weight:800}main{flex:1;padding:20px;min-width:0}.page{display:none}.page.active{display:block}.page-title{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px;gap:12px}.page-title h1{margin:0;font-size:25px}.page-title p{margin:4px 0 0;color:#64748b}.actions{display:flex;gap:8px;flex-wrap:wrap}.sale-layout{display:grid;grid-template-columns:minmax(0,1fr) 390px;gap:16px}.catalog,.ticket,.panel,.stat,.cashbox{background:#fff;border:1px solid #e2e8f0;border-radius:15px}.catalog{padding:14px}.searchrow{display:flex;gap:8px}.searchrow input,.toolbar input{flex:1;padding:13px;border:1px solid #cbd5e1;border-radius:10px;font-size:16px}.chips{display:flex;gap:7px;overflow:auto;padding:12px 0}.chip{white-space:nowrap;padding:8px 12px;border:0;border-radius:999px;background:#e2e8f0}.chip.active{background:#0f172a;color:#fff}.products{display:grid;grid-template-columns:repeat(auto-fill,minmax(145px,1fr));gap:10px}.product{background:#fff;border:1px solid #e2e8f0;border-radius:12px;padding:13px;text-align:left;min-height:115px}.product:disabled{opacity:.45}.product b{display:block;line-height:1.2}.product .pprice{display:block;font-size:18px;font-weight:900;margin-top:10px}.product small{color:#64748b}.ticket{padding:14px;display:flex;flex-direction:column;min-height:600px}.ticket-title{display:flex;justify-content:space-between}.ticket-title button{border:0;background:none;color:#ef4444}.sale-meta{display:flex;gap:7px;margin:10px 0}.sale-meta select{flex:1}.sale-meta select,.discount-row input,.discount-row select{padding:9px;border:1px solid #cbd5e1;border-radius:8px}.mini{border:1px solid #cbd5e1;background:#fff;border-radius:8px}.cart{flex:1;overflow:auto;margin:8px 0}.line{display:grid;grid-template-columns:1fr auto;gap:8px;padding:12px 0;border-bottom:1px solid #f1f5f9}.qty button{padding:3px 9px;border:1px solid #cbd5e1;border-radius:7px;background:#fff}.discount-row{display:grid;grid-template-columns:1fr 90px;gap:8px}.discount-row label{margin:0}.summary{border-top:1px solid #e2e8f0;padding-top:10px}.summary div{display:flex;justify-content:space-between;padding:6px 0}.grand{font-size:23px}.pay{width:100%;border:0;border-radius:11px;background:#0f172a;color:#fff;padding:15px;font-size:17px;font-weight:900;margin-top:8px}.primary,.outline,.danger{border-radius:10px;padding:10px 13px;font-weight:800}.primary{background:#0f172a;color:#fff;border:0}.outline{background:#fff;border:1px solid #cbd5e1}.danger{background:#fee2e2;border:1px solid #fecaca;color:#b91c1c}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:16px}.stat{padding:17px}.stat small{display:block;color:#64748b}.stat b{font-size:22px;display:block;margin-top:6px}.toolbar{display:flex;gap:8px;margin-bottom:14px;align-items:center}.filebtn{display:inline-flex;align-items:center;cursor:pointer}.filebtn input{display:none}.tablewrap{background:#fff;border:1px solid #e2e8f0;border-radius:15px;overflow:auto}.table{width:100%;border-collapse:collapse}.table th,.table td{padding:11px;border-bottom:1px solid #f1f5f9;text-align:left;white-space:nowrap}.table button{padding:6px 9px}.low{color:#dc2626;font-weight:900}.cashbox{padding:22px;margin-bottom:16px;display:grid;grid-template-columns:1fr 1fr}.cashbox strong{font-size:28px;display:block;margin-top:4px}.cash-actions{grid-column:1/-1;display:flex;gap:8px;margin-top:20px}.cash-actions button{padding:11px 14px}.report-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.panel{padding:18px;margin-bottom:12px}.panel h3{margin-top:0}.panel label,label{display:block;margin:12px 0;font-weight:700}.panel input,label input,label select,.panel select{display:block;width:100%;padding:12px;margin-top:5px;border:1px solid #cbd5e1;border-radius:9px;font-size:16px}.two{display:grid;grid-template-columns:1fr 1fr;gap:10px}.empty{text-align:center;color:#94a3b8;padding:50px 10px}.change{font-weight:900}.bar{height:9px;background:#e2e8f0;border-radius:99px;overflow:hidden}.bar i{display:block;height:100%;background:#0f172a}dialog{border:0;border-radius:16px;padding:22px;width:min(94vw,480px);box-shadow:0 25px 70px #0004}dialog::backdrop{background:#0007}.dialog-actions{display:flex;justify-content:flex-end;gap:8px;margin-top:18px}@media(max-width:900px){aside{position:fixed;left:0;bottom:0;width:100%;height:62px;z-index:30;display:flex;padding:4px;border-top:1px solid #ddd;overflow-x:auto}.nav{min-width:70px;margin:0;text-align:center;padding:7px 4px;font-size:11px}.nav span{display:block}.app{padding-bottom:62px}.sale-layout{grid-template-columns:1fr}.ticket{min-height:430px}.report-grid{grid-template-columns:1fr}.cards{grid-template-columns:1fr 1fr 1fr}}@media(max-width:520px){main{padding:10px}.products{grid-template-columns:repeat(2,1fr)}.cards{grid-template-columns:1fr 1fr}.cards .stat:last-child{grid-column:1/-1}.two,.cashbox{grid-template-columns:1fr}.cash-actions{grid-column:auto}.page-title{align-items:flex-start;flex-direction:column}.toolbar{flex-wrap:wrap}.toolbar input{min-width:180px}}
+
+.payment-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:12px 0}.payment-grid button{border:1px solid #cbd5e1;background:#fff;border-radius:14px;padding:7px;min-height:86px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;font-weight:900;cursor:pointer}.payment-grid button.selected{outline:3px solid #0f172a;transform:translateY(-1px)}.payment-grid img{width:100%;height:54px;object-fit:contain;border-radius:10px}.mixed-box{padding:12px;border:1px solid #cbd5e1;border-radius:12px;background:#f8fafc}.mixed-box small{font-weight:900}.cloud-status{font-weight:800;color:#475569}.muted{color:#64748b}.cloud-ok{color:#15803d}.cloud-warn{color:#b45309}.cloud-error{color:#b91c1c}
+@media print{body{background:#fff!important}.no-print,.top,aside{display:none!important}main{padding:0!important}.page{display:none!important}.print-sheet{display:block!important;width:58mm;margin:0 auto;font-family:Arial,sans-serif;font-size:11px;color:#000}.print-sheet h1,.print-sheet h2{font-size:15px;text-align:center;margin:4px 0}.print-sheet .center{text-align:center}.print-sheet table{width:100%;border-collapse:collapse}.print-sheet td{padding:2px 0;vertical-align:top}.print-sheet .line{border-top:1px dashed #000;margin:5px 0}.print-sheet .total{font-size:14px;font-weight:900}.print-sheet .actions{display:none!important}}
+.cloud-top-status{font-size:.82rem;padding:.35rem .55rem;border-radius:999px;background:#eef2f7;color:#475569}.cloud-top-status.cloud-ok{background:#dcfce7;color:#166534}.cloud-top-status.cloud-error{background:#fee2e2;color:#991b1b}.cloud-top-status.cloud-warn{background:#fef3c7;color:#92400e}
+@media(max-width:800px){
+  .top-actions{gap:.35rem}
+  .cloud-top-status{display:none}
+  #menu{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:10px;background:#1e293b;cursor:pointer}
+  .app{display:block;min-height:calc(100vh - 64px);padding-bottom:0}
+  #sidebar{position:fixed;left:0;top:64px;bottom:0;width:min(82vw,300px);height:auto;z-index:100;display:flex;flex-direction:column;align-items:stretch;padding:14px 10px;background:#fff;border-right:1px solid #cbd5e1;box-shadow:10px 0 30px #0003;overflow-y:auto;transform:translateX(-105%);transition:transform .2s ease}
+  #sidebar.show{transform:translateX(0)}
+  #sidebar::after{content:'BMA MINIMARKET';display:block;margin-top:auto;padding:16px 10px 6px;color:#94a3b8;font-size:11px;font-weight:800;text-align:center}
+  .nav{display:flex;align-items:center;gap:12px;justify-content:flex-start;min-width:0;width:100%;margin:0 0 5px;padding:13px 14px;border-radius:11px;font-size:15px;text-align:left;cursor:pointer}
+  .nav span{display:inline}
+  .nav.active{background:#0f172a;color:#fff}
+  main{padding:12px}
+  .sale-layout{grid-template-columns:1fr}
+  .ticket{position:static;min-height:430px}
+  .products{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .page{padding:4px}
+  .page-title{gap:10px}
+  .actions{flex-wrap:wrap}
+  .payment-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media(min-width:801px){#menu{display:none}}
+
+@media(min-width:801px){.products{grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}.ticket{position:sticky;top:10px}}
+
+.receipt-logo{display:block;width:48px;height:48px;object-fit:contain;margin:0 auto 4px;image-rendering:auto}
+
+.free-sale-btn{white-space:nowrap}.free-tag{display:block;font-size:11px;opacity:.7;margin-top:2px}.qty-input{width:58px;padding:5px 3px;text-align:center;border:1px solid #ddd;border-radius:8px;font-weight:700}.cashbox>div strong{display:block}.cashbox{grid-template-columns:repeat(3,minmax(0,1fr))}@media(max-width:800px){.cashbox{grid-template-columns:1fr 1fr}.cash-actions{grid-column:1/-1}.free-sale-btn{font-size:12px;padding:9px 10px}.qty-input{width:54px}}
+
+.account-cards{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:10px 0 16px}.account-cards>div{padding:12px;border:1px solid #e2e8f0;border-radius:10px;background:#f8fafc}.account-cards small{display:block;color:#64748b}.account-cards b{display:block;margin-top:4px;font-size:18px}.debt{color:#dc2626;font-weight:900}.paid{color:#15803d;font-weight:900}.free-tag{display:block;color:#b45309;font-weight:800;margin-top:3px}@media(max-width:520px){.account-cards{grid-template-columns:1fr 1fr}}
+
+.analysis-head{display:flex;justify-content:space-between;gap:16px;align-items:flex-start}.analysis-head h2{margin:0 0 4px}.analysis-controls{min-width:190px}.analysis-controls label{margin:0}.analysis-summary{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:14px 0}.analysis-summary>div{padding:13px;border:1px solid #e2e8f0;border-radius:11px;background:#f8fafc}.analysis-summary small{display:block;color:#64748b}.analysis-summary b{display:block;font-size:20px;margin-top:3px}.analysis-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.analysis-grid .panel{margin:0;background:#f8fafc}.analysis-row{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:11px 0;border-bottom:1px solid #e2e8f0}.analysis-row:last-child{border-bottom:0}.analysis-row span{min-width:0}.analysis-row b,.analysis-row small{display:block}.analysis-row small{color:#64748b;margin-top:3px;line-height:1.35}.tag{font-style:normal;font-size:11px;white-space:nowrap;padding:5px 7px;border-radius:999px;font-weight:900}.tag.good{background:#dcfce7;color:#166534}.tag.warn{background:#fef3c7;color:#92400e}.tag.bad{background:#fee2e2;color:#991b1b}.print-preview-head{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;margin-bottom:10px}.print-preview-head h2{margin:0}.print-preview-head button{border:0;background:transparent;font-size:22px;cursor:pointer}.print-preview-head p{margin:3px 0}.ticket-paper{width:58mm;max-width:100%;margin:0 auto;padding:3mm;background:#fff;color:#000;font:11px Arial,sans-serif}.ticket-paper h1{font-size:16px;margin:2px 0}.ticket-paper .center{text-align:center}.ticket-paper table{width:100%;border-collapse:collapse}.ticket-paper td{padding:2px 0;vertical-align:top}.ticket-paper .line{border-top:1px dashed #000;margin:5px 0}.ticket-paper .total{font-size:15px;font-weight:900}.ticket-paper .receipt-logo{width:48px;height:48px}.printing .top,.printing aside,.printing main{display:none!important}.printing #printArea{display:block!important}.printing #printPreviewDialog{display:block!important}.printing #printSheet{display:none!important}@media print{body.printing{background:#fff!important}body.printing #printArea{display:block!important}.printing .ticket-paper{width:58mm;margin:0 auto;padding:0}.printing *{visibility:hidden!important}.printing #printArea,.printing #printArea *{visibility:visible!important}.printing #printArea{position:absolute;left:0;top:0;width:58mm}.printing .no-print{display:none!important}}@media(max-width:800px){.analysis-head{flex-direction:column}.analysis-controls{width:100%}.analysis-grid{grid-template-columns:1fr}.analysis-summary{grid-template-columns:1fr 1fr}.analysis-summary>div:last-child{grid-column:1/-1}dialog{max-width:96vw}.ticket-paper{padding:2mm}}
+
+/* v12 responsive/mobile polish + in-page print preview */
+.print-overlay{position:fixed;inset:0;z-index:1000;display:flex;align-items:center;justify-content:center;padding:14px;background:rgba(15,23,42,.72);overflow:auto}.print-overlay[hidden]{display:none!important}.print-preview-card{width:min(560px,100%);max-height:calc(100vh - 28px);overflow:auto;background:#f8fafc;border-radius:18px;padding:14px;box-shadow:0 24px 70px rgba(0,0,0,.35)}.print-preview-card #printArea{padding:10px 0}.print-preview-head{min-height:46px}.print-preview-head button{width:44px;height:44px;border-radius:10px;background:#fff;border:1px solid #cbd5e1!important}.print-preview-card .dialog-actions{position:sticky;bottom:0;background:#f8fafc;padding-top:10px;display:grid;grid-template-columns:1fr 1.2fr}.print-preview-card .dialog-actions button{min-height:48px;font-size:15px}.print-preview-open{overflow:hidden}.ticket-paper{box-shadow:0 2px 14px rgba(0,0,0,.10);border-radius:3px}
+@media(max-width:800px){
+  body{overflow-x:hidden}.top{height:58px;padding:0 10px}.brand{min-width:0}.brand strong{font-size:14px}.logo-img{width:38px;height:38px}.top-actions{margin-left:auto}.app{min-height:calc(100vh - 58px)}#sidebar{top:58px;width:min(86vw,310px)}main{padding:10px!important;width:100%;overflow-x:hidden}.page{padding:0!important;width:100%;min-width:0}.page-title{width:100%;margin-bottom:12px}.page-title h1{font-size:22px;line-height:1.15}.page-title p{font-size:13px}.actions{width:100%;gap:7px}.actions>*{max-width:100%}.sale-layout{gap:10px}.catalog,.ticket,.panel,.stat,.cashbox{border-radius:12px}.catalog{padding:10px}.searchrow{flex-wrap:wrap}.searchrow input{min-width:0;width:100%}.searchrow button{min-height:44px}.products{gap:8px}.product{min-height:105px;padding:11px}.product .pprice{font-size:17px}.ticket{min-height:360px;padding:11px}.sale-meta{flex-wrap:wrap}.sale-meta>*{min-width:0}.discount-row{grid-template-columns:minmax(0,1fr) 82px}.payment-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.payment-grid button{min-height:82px;padding:6px;font-size:13px}.cards,.report-grid,.analysis-grid{grid-template-columns:1fr 1fr}.analysis-summary{grid-template-columns:1fr 1fr}.analysis-summary>div:last-child{grid-column:1/-1}.analysis-head{gap:10px}.analysis-controls{width:100%;min-width:0}.tablewrap{max-width:100%;overflow-x:auto}.table{min-width:620px}.two{grid-template-columns:1fr}.cashbox{grid-template-columns:1fr 1fr!important}.cash-actions{grid-column:1/-1!important;flex-wrap:wrap}.cash-actions button{flex:1;min-width:130px}.account-cards{grid-template-columns:1fr 1fr}.print-overlay{padding:0;align-items:flex-end}.print-preview-card{width:100%;max-height:100dvh;border-radius:18px 18px 0 0;padding:10px}.print-preview-card #printArea{max-height:calc(100dvh - 150px);overflow:auto}.print-preview-card .dialog-actions{grid-template-columns:1fr 1fr;padding-bottom:max(8px,env(safe-area-inset-bottom))}.print-preview-card .dialog-actions button{min-height:52px}.ticket-paper{max-width:58mm}.dialog-actions{gap:8px}
+}
+@media(max-width:520px){
+  .cards{grid-template-columns:1fr 1fr}.cards .stat:last-child{grid-column:1/-1}.analysis-summary{grid-template-columns:1fr 1fr}.analysis-row{align-items:flex-start}.analysis-row .tag{flex:0 0 auto}.cashbox{grid-template-columns:1fr!important}.cash-actions{grid-column:auto!important}.toolbar{align-items:stretch}.toolbar>*{width:100%;min-width:0}.payment-grid button{min-height:76px}.payment-grid img{height:44px}.print-preview-card{padding:8px}.print-preview-head h2{font-size:19px}.print-preview-head p{font-size:12px}.ticket-paper{padding:2mm}.print-preview-card .dialog-actions{grid-template-columns:1fr}.print-preview-card .dialog-actions button{width:100%}
+}
+@media print{
+  body.printing .print-overlay{position:static;display:block;background:#fff;padding:0;overflow:visible}.print-preview-card{box-shadow:none;border-radius:0;width:auto;max-height:none;overflow:visible;padding:0;background:#fff}.print-preview-head,.print-preview-card .dialog-actions{display:none!important}.print-preview-card #printArea{padding:0;max-height:none;overflow:visible}.printing .ticket-paper{box-shadow:none;border-radius:0}
+}
+
+/* Identidad visual BMA MINIMARKET */
+:root{--bma-yellow:#facc15;--bma-gold:#eab308;--bma-ink:#111827;--bma-soft:#fffbea;--bma-line:#f3e8a1}
+body{background:radial-gradient(circle at 85% 0%,#fff8c7 0,transparent 32%),linear-gradient(135deg,#fffdf2 0%,#f8fafc 55%,#fff7cc 100%)}
+.top{background:linear-gradient(110deg,#111827,#1f2937 70%,#3f3a16);border-bottom:3px solid var(--bma-yellow)}
+aside{background:linear-gradient(180deg,#fffef7,#fff8d8);border-right:1px solid var(--bma-line)}
+.nav.active{background:var(--bma-yellow);color:#111827;box-shadow:0 4px 12px #eab30833}
+.chip.active,.pay,.primary{background:var(--bma-ink)}
+.product,.catalog,.ticket,.panel,.stat,.cashbox,.tablewrap{border-color:var(--bma-line)}
+.product .pprice,.grand,.stat b,.cashbox strong{color:#a16207}
+.product:hover{border-color:var(--bma-gold);box-shadow:0 5px 18px #eab30822}
+.pay,.primary{border-bottom:3px solid var(--bma-yellow)}
+.payment-grid button.selected{outline-color:var(--bma-yellow)}
+.bar i{background:linear-gradient(90deg,var(--bma-gold),var(--bma-yellow))}
+@media(max-width:800px){aside{background:#fffdf2}.nav.active{background:var(--bma-ink);color:#fff}}
+
+
+/* Corrección de impresión térmica Android: mantener visible el comprobante real */
+@media print {
+  html, body { background:#fff !important; margin:0 !important; padding:0 !important; }
+  body.printing > * { visibility:hidden !important; }
+  body.printing #printPreviewDialog,
+  body.printing #printPreviewDialog * { visibility:visible !important; }
+  body.printing #printPreviewDialog {
+    display:block !important;
+    position:static !important;
+    inset:auto !important;
+    width:58mm !important;
+    max-width:58mm !important;
+    min-width:58mm !important;
+    height:auto !important;
+    max-height:none !important;
+    margin:0 !important;
+    padding:0 !important;
+    background:#fff !important;
+    overflow:visible !important;
+    box-shadow:none !important;
+    border:0 !important;
+  }
+  body.printing #printPreviewDialog .print-preview-card {
+    display:block !important;
+    width:58mm !important;
+    max-width:58mm !important;
+    max-height:none !important;
+    margin:0 !important;
+    padding:0 !important;
+    background:#fff !important;
+    overflow:visible !important;
+    box-shadow:none !important;
+    border-radius:0 !important;
+  }
+  body.printing #printPreviewDialog .print-preview-head,
+  body.printing #printPreviewDialog .dialog-actions,
+  body.printing #printPreviewDialog .no-print { display:none !important; }
+  body.printing #printPreviewDialog #printArea {
+    display:block !important;
+    width:58mm !important;
+    max-width:58mm !important;
+    margin:0 !important;
+    padding:0 !important;
+    overflow:visible !important;
+  }
+  body.printing #printPreviewDialog .ticket-paper {
+    display:block !important;
+    visibility:visible !important;
+    width:58mm !important;
+    max-width:58mm !important;
+    margin:0 !important;
+    padding:0 !important;
+    color:#000 !important;
+    background:#fff !important;
+    box-shadow:none !important;
+  }
+}
+
+/* Diseño adaptable para tablets y celulares en horizontal */
+@media (min-width:801px) and (max-width:1200px){
+  aside{width:188px;padding:10px}
+  main{padding:14px}
+  .sale-layout{grid-template-columns:minmax(0,1fr) minmax(300px,34vw);gap:12px}
+  .products{grid-template-columns:repeat(auto-fill,minmax(118px,1fr));gap:8px}
+  .product{padding:10px;min-height:104px}
+  .product .pprice{font-size:16px}
+  .catalog,.ticket,.panel,.stat,.cashbox{border-radius:12px}
+  .ticket{padding:12px;min-height:480px}
+  .page-title h1{font-size:22px}
+  .cards,.report-grid{gap:8px}
+  .stat{padding:12px}
+  .stat b{font-size:19px}
+  .table th,.table td{padding:9px}
+}
+
+@media (orientation:landscape) and (max-height:700px){
+  .top{height:54px;padding:0 10px}
+  .logo-img{width:36px;height:36px}
+  .brand strong{font-size:14px}
+  .brand small{font-size:10px}
+  .app{min-height:calc(100vh - 54px)}
+  aside{width:176px;padding:8px}
+  .nav{padding:9px 10px;font-size:13px}
+  main{padding:10px}
+  .page-title{margin-bottom:10px;gap:8px}
+  .page-title h1{font-size:21px}
+  .page-title p{font-size:12px}
+  .sale-layout{grid-template-columns:minmax(0,1fr) minmax(285px,33vw);gap:10px}
+  .catalog{padding:10px}
+  .products{grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:7px}
+  .product{padding:9px;min-height:96px}
+  .product .pprice{font-size:15px;margin-top:7px}
+  .ticket{padding:10px;min-height:calc(100vh - 84px)}
+  .cart{min-height:70px}
+  .line{padding:8px 0}
+  .payment-grid{gap:7px}
+  .payment-grid button{min-height:66px}
+  .payment-grid img{height:38px}
+  .panel{padding:12px}
+  .toolbar{margin-bottom:10px}
+  .cards,.report-grid{gap:8px}
+  .stat{padding:11px}
+  .stat b{font-size:18px}
+  .cashbox{padding:14px}
+}
+
+/* Evita que controles y títulos se salgan en anchos intermedios */
+.page-title > *, .toolbar > *, .actions > *, .sale-meta > *, .summary > *, .two > *, .cash-actions > *{min-width:0;max-width:100%}
+button,input,select,textarea{max-width:100%;}
+.page-title h1,.page-title p,.product b,.ticket-title h3,.line,.analysis-row span{overflow-wrap:anywhere;}
+
+/* v23: logo más visible y lector USB/Bluetooth */
+@media(max-width:520px){.top{padding:0 10px;height:68px}.logo-img{width:50px;height:50px}.brand{gap:8px}.brand strong{font-size:14px}.brand small{font-size:10px}}
+
+/* v24: thermal print sizing fix for Android print preview / 58 mm rolls */
+@page{size:58mm auto;margin:0}
+@media print{
+  html,body{width:58mm!important;min-width:58mm!important;margin:0!important;padding:0!important;background:#fff!important;color:#000!important}
+  body.printing{display:block!important;overflow:visible!important}
+  body.printing .top,
+  body.printing aside,
+  body.printing main,
+  body.printing .print-preview-head,
+  body.printing .dialog-actions,
+  body.printing .no-print{display:none!important}
+  body.printing #printPreviewDialog{display:block!important;position:static!important;inset:auto!important;width:58mm!important;max-width:58mm!important;height:auto!important;max-height:none!important;padding:0!important;margin:0!important;background:#fff!important;overflow:visible!important}
+  body.printing #printPreviewDialog .print-preview-card{display:block!important;position:static!important;width:58mm!important;max-width:58mm!important;height:auto!important;max-height:none!important;padding:0!important;margin:0!important;background:#fff!important;box-shadow:none!important;border:0!important;border-radius:0!important;overflow:visible!important}
+  body.printing #printArea{display:block!important;position:static!important;visibility:visible!important;width:58mm!important;max-width:58mm!important;min-width:58mm!important;margin:0!important;padding:0!important;background:#fff!important;color:#000!important;font-family:Arial,sans-serif!important;font-size:12px!important;line-height:1.25!important;transform:none!important}
+  body.printing #printArea *{visibility:visible!important;color:#000!important;max-width:100%!important}
+  body.printing #printArea .ticket-paper{display:block!important;width:58mm!important;max-width:58mm!important;margin:0!important;padding:2mm!important;box-sizing:border-box!important;box-shadow:none!important;border:0!important;border-radius:0!important}
+  body.printing #printArea table{width:100%!important;table-layout:fixed!important;border-collapse:collapse!important}
+  body.printing #printArea td{font-size:12px!important;word-break:normal!important;overflow-wrap:anywhere!important;padding:1px 0!important}
+  body.printing #printArea .receipt-logo{display:block!important;width:30mm!important;height:auto!important;max-height:18mm!important;object-fit:contain!important;margin:0 auto 2mm!important}
+  body.printing #printArea h1{font-size:15px!important;margin:1mm 0!important;text-align:center!important}
+  body.printing #printArea .total{font-size:15px!important;font-weight:900!important}
+  body.printing #printArea .line{border-top:1px dashed #000!important;margin:2mm 0!important}
+}
+
+/* v25: impresión térmica legible en Android y 58 mm */
+@media print {
+  @page { size: 58mm auto; margin: 0; }
+  html, body { width:auto!important; min-width:0!important; margin:0!important; padding:0!important; background:#fff!important; }
+  body.printing { display:block!important; overflow:visible!important; }
+  body.printing > * { visibility:hidden!important; }
+  body.printing #printPreviewDialog,
+  body.printing #printPreviewDialog * { visibility:visible!important; }
+  body.printing #printPreviewDialog { display:block!important; position:static!important; width:58mm!important; max-width:58mm!important; margin:0!important; padding:0!important; background:#fff!important; overflow:visible!important; }
+  body.printing #printPreviewDialog .print-preview-card { display:block!important; width:58mm!important; max-width:58mm!important; margin:0!important; padding:0!important; background:#fff!important; border:0!important; box-shadow:none!important; overflow:visible!important; }
+  body.printing #printPreviewDialog .print-preview-head,
+  body.printing #printPreviewDialog .dialog-actions,
+  body.printing #printPreviewDialog .no-print { display:none!important; }
+  body.printing #printArea { display:block!important; width:58mm!important; max-width:58mm!important; margin:0!important; padding:0!important; background:#fff!important; color:#000!important; font-family:Arial,sans-serif!important; font-size:15px!important; line-height:1.35!important; transform:none!important; }
+  body.printing #printArea .ticket-paper { display:block!important; width:58mm!important; max-width:58mm!important; margin:0!important; padding:3mm!important; box-sizing:border-box!important; background:#fff!important; color:#000!important; border:0!important; box-shadow:none!important; border-radius:0!important; font:15px/1.35 Arial,sans-serif!important; }
+  body.printing #printArea table { width:100%!important; table-layout:auto!important; border-collapse:collapse!important; }
+  body.printing #printArea td { font-size:15px!important; line-height:1.35!important; padding:2px 0!important; vertical-align:top!important; }
+  body.printing #printArea small { font-size:13px!important; }
+  body.printing #printArea h1 { font-size:20px!important; line-height:1.2!important; margin:2mm 0!important; }
+  body.printing #printArea b { font-weight:800!important; }
+  body.printing #printArea .total { font-size:19px!important; font-weight:900!important; }
+  body.printing #printArea .line { border-top:1px dashed #000!important; margin:3mm 0!important; }
+  body.printing #printArea .receipt-logo { display:block!important; width:34mm!important; height:auto!important; max-height:none!important; margin:0 auto 3mm!important; object-fit:contain!important; }
+}
+
+/* v26: logo grande solo en la app; ticket térmico compacto y legible */
+@media print {
+  body.printing #printArea,
+  body.printing #printArea .ticket-paper {
+    font-size: 10px !important;
+    line-height: 1.2 !important;
+  }
+  body.printing #printArea .ticket-paper {
+    width: 58mm !important;
+    max-width: 58mm !important;
+    padding: 1.5mm !important;
+  }
+  body.printing #printArea .receipt-logo {
+    width: 18mm !important;
+    max-height: 11mm !important;
+    margin: 0 auto 1mm !important;
+  }
+  body.printing #printArea h1 {
+    font-size: 13px !important;
+    margin: 1mm 0 !important;
+  }
+  body.printing #printArea td {
+    font-size: 10px !important;
+    line-height: 1.2 !important;
+    padding: 1px 0 !important;
+  }
+  body.printing #printArea small {
+    font-size: 9px !important;
+  }
+  body.printing #printArea .total {
+    font-size: 13px !important;
+  }
+}
+
+/* v27: impresión estable en Chrome Android y Firefox para rollo de 58 mm */
+@media print {
+  @page { size: 58mm auto; margin: 0; }
+  html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: auto !important;
+    min-width: 0 !important;
+    max-width: none !important;
+    background: #fff !important;
+    color: #000 !important;
+    overflow: visible !important;
+  }
+  body.printing > * { display: none !important; }
+  body.printing #printPreviewDialog {
+    display: block !important;
+    position: static !important;
+    width: 58mm !important;
+    max-width: 58mm !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #fff !important;
+    overflow: visible !important;
+  }
+  body.printing #printPreviewDialog .print-preview-card {
+    display: block !important;
+    width: 58mm !important;
+    max-width: 58mm !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #fff !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    overflow: visible !important;
+  }
+  body.printing #printPreviewDialog .print-preview-head,
+  body.printing #printPreviewDialog .dialog-actions,
+  body.printing #printPreviewDialog .no-print { display: none !important; }
+  body.printing #printArea {
+    display: block !important;
+    width: 58mm !important;
+    max-width: 58mm !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #fff !important;
+    color: #000 !important;
+    font-family: Arial, sans-serif !important;
+    font-size: 11px !important;
+    line-height: 1.25 !important;
+    transform: none !important;
+  }
+  body.printing #printArea .ticket-paper {
+    display: block !important;
+    box-sizing: border-box !important;
+    width: 58mm !important;
+    max-width: 58mm !important;
+    margin: 0 !important;
+    padding: 2mm !important;
+    background: #fff !important;
+    color: #000 !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    font: 11px/1.25 Arial, sans-serif !important;
+  }
+  body.printing #printArea table { width: 100% !important; table-layout: auto !important; border-collapse: collapse !important; }
+  body.printing #printArea td { font-size: 11px !important; line-height: 1.25 !important; padding: 1px 0 !important; vertical-align: top !important; }
+  body.printing #printArea small { font-size: 10px !important; }
+  body.printing #printArea h1 { font-size: 15px !important; line-height: 1.2 !important; margin: 1mm 0 !important; }
+  body.printing #printArea .total { font-size: 15px !important; font-weight: 900 !important; }
+  body.printing #printArea .receipt-logo { display: block !important; width: 22mm !important; max-width: 22mm !important; height: auto !important; max-height: 13mm !important; margin: 0 auto 1mm !important; object-fit: contain !important; }
+}
